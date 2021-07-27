@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "661459760686",
+    "project_id": "chatapp-5e056",
+    "storage_bucket": "chatapp-5e056.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661459760686:android:a13b636ec996ae26c351bf",
+        "android_client_info": {
+          "package_name": "com.dmatrix.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661459760686-ohravl95leh4sa8t0a6lflevst0fgock.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo-5KIdVqiEPsHQk_ji47RiIsJ2zqF3-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661459760686-ohravl95leh4sa8t0a6lflevst0fgock.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
