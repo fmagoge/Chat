@@ -2,6 +2,7 @@ package com.dmatrix.chat.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -22,6 +23,7 @@ public class SignInActivity extends AppCompatActivity {
     private void setListeners(){
         binding.textCreateNewAccount.setOnClickListener(v ->
                 startActivity(new Intent(getApplicationContext(), SignUpActivity.class)));
-
     }
+
+
 }
