@@ -44,6 +44,8 @@ public class MainActivity extends AppCompatActivity {
         byte[] bytes = Base64.decode(preferenceManager.getString(Constants.KEY_IMAGE), Base64.DEFAULT);
         Bitmap bitmap = BitmapFactory.decodeByteArray(bytes, 0, bytes.length);
         binding.imageProfile.setImageBitmap(bitmap);
+        binding.fabNewChat.setOnClickListener(v ->
+                startActivity(new Intent(getApplicationContext(), UsersActivity.class)));
     }
 
     private void showToast(String message){
